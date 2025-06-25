@@ -1,0 +1,17 @@
+digraph Lineage {
+	graph [rankdir=LR]
+	"sales_report.sas" [label="sales\nreport.sas" shape=box]
+	"proc_etl_01.sas" [label="proc_etl\n01.sas" shape=box]
+	"macro_jobs.sas" [label="macro_jobs.sas" shape=box]
+	sales_2024 [label=sales_2024 shape=box]
+	cust_raw [label=cust_raw shape=box]
+	trans_raw [label=trans_raw shape=box]
+	"%macro_abcs" [label="%macro_abcs" shape=box]
+	aaa [label=aaa shape=box]
+	"%my_cleaner" [label="%my_cleaner" shape=box]
+	raw_transactions [label="raw\ntransactions" shape=box]
+	sales_summary [label=sales_summary shape=box]
+	cust_stg [label=cust_stg shape=box]
+	bbb [label=bbb shape=box]
+	clean_data [label="clean\ndata" shape=box]
+}

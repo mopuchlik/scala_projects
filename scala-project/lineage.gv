@@ -1,0 +1,15 @@
+digraph Lineage {
+	graph [rankdir=LR]
+	step_1sas [label="step\n1.sas" fillcolor="#d0e1f9" shape=folder style=filled]
+	step_2sas [label="step\n2.sas" fillcolor="#d0e1f9" shape=folder style=filled]
+	raw_sales [label=raw_sales fillcolor="#e8e8e8" shape=box style="rounded,filled"]
+	sales_agg [label=sales_agg fillcolor="#e8e8e8" shape=box style="rounded,filled"]
+	cleanup_macro [label="%cleanup_macro" fillcolor="#fff2b2" shape=ellipse style=filled]
+	sales_report [label=sales_report fillcolor="#e8e8e8" shape=box style="rounded,filled"]
+	raw_sales -> sales_agg
+	sales_agg -> sales_report
+	cleanup_macro -> sales_report
+	step_1sas -> raw_sales
+	step_2sas -> cleanup_macro
+	sales_agg -> step_2sas
+}
