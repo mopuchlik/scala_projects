@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/michal/silos/Dropbox/programowanie/scala/data_transform/project/Dependencies.scala:5:3: not found: value scalaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m  scalaVersion := "3.7.0"          // or 3.3.x[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/michal/silos/Dropbox/programowanie/scala/data_transform/project/Dependencies.scala:6:3: not found: value libraryDependencies[0m
+[0m[[0m[31merror[0m] [0m[0m  libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.5.0"[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
